@@ -1,6 +1,8 @@
 package utils.sn.communication;
 
-public final class DataPacketTransfer {
+import java.io.Serializable;
+
+public final class DataPacketTransfer implements Serializable {
     private String data;
     private String endpoint;
 
